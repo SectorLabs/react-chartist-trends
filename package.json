@@ -1,18 +1,19 @@
 {
-  "name": "react-chartist",
-  "version": "0.13.0",
+  "name": "react-chartist-trends",
+  "version": "0.1.0",
   "description": "React component for Chartist.js",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fraserxu/react-chartist.git"
+    "url": "git://github.com/cipix2000/react-chartist-trends.git"
   },
   "keywords": [
     "react",
     "react-component",
     "component",
     "chartist",
-    "graph"
+    "graph",
+    "trends"
   ],
   "author": {
     "name": "Fraser Xu",
@@ -28,12 +29,11 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fraserxu/react-chartist/issues"
+    "url": "https://github.com/cipix2000/react-chartist-trends/issues"
   },
-  "homepage": "https://github.com/fraserxu/react-chartist",
+  "homepage": "https://github.com/cipix2000/react-chartist-trends",
   "peerDependencies": {
-    "chartist": "^0.10.1",
-    "react": "^0.14.9 || ^15.3.0"
+    "react": "^15.3.0"
   },
   "scripts": {
     "build": "mkdir -p dist && babel index.js -o dist/index.js"
@@ -45,6 +45,7 @@
     "babel-preset-stage-0": "^6.16.0"
   },
   "dependencies": {
+    "chartist-trends": "^0.1.0",
     "prop-types": "^15.5.8"
   }
 }
