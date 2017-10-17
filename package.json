@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cipix2000/react-chartist-trends.git"
+    "url": "git://github.com/SectorLabs/react-chartist-trends.git"
   },
   "keywords": [
     "react",
@@ -29,11 +29,12 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cipix2000/react-chartist-trends/issues"
+    "url": "https://github.com/SectorLabs/react-chartist-trends/issues"
   },
-  "homepage": "https://github.com/cipix2000/react-chartist-trends",
+  "homepage": "https://github.com/SectorLabs/react-chartist-trends",
   "peerDependencies": {
-    "react": "^15.3.0"
+    "react": "^15.3.0",
+    "chartist-trends": "SectorLabs/react-chartist-trends#0.1.4",
   },
   "scripts": {
     "build": "mkdir -p dist && babel index.js -o dist/index.js"
@@ -45,7 +46,6 @@
     "babel-preset-stage-0": "^6.16.0"
   },
   "dependencies": {
-    "chartist-trends": "^0.1.4",
     "prop-types": "^15.5.8"
   }
 }
