@@ -34,7 +34,7 @@
   "homepage": "https://github.com/SectorLabs/react-chartist-trends",
   "peerDependencies": {
     "react": "^15.3.0",
-    "chartist-trends": "SectorLabs/react-chartist-trends#0.1.4",
+    "chartist-trends": "SectorLabs/chartist-trends#0.1.4"
   },
   "scripts": {
     "build": "mkdir -p dist && babel index.js -o dist/index.js"
