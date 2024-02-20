@@ -32,8 +32,8 @@ var ChartistGraph = function (_Component) {
   }
 
   _createClass(ChartistGraph, [{
-    key: 'componentWillReceiveProps',
-    value: function componentWillReceiveProps(newProps) {
+    key: 'UNSAFE_componentWillReceiveProps',
+    value: function UNSAFE_componentWillReceiveProps(newProps) {
       this.updateChart(newProps);
     }
   }, {

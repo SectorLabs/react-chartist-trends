@@ -5,7 +5,7 @@ class ChartistGraph extends Component {
 
   displayName: 'ChartistGraph'
 
-  componentWillReceiveProps(newProps) {
+  UNSAFE_componentWillReceiveProps(newProps) {
     this.updateChart(newProps);
   }
 
