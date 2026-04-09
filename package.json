@@ -1,6 +1,6 @@
 {
   "name": "@sector-labs/react-chartist-trends",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0",
   "description": "React component for @sector-labs/chartist-trends",
   "main": "dist/index.js",
   "repository": {
