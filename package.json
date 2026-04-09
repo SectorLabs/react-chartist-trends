@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/SectorLabs/react-chartist-trends",
   "peerDependencies": {
-    "react": "^15.3.0",
+    "react": ">=15.3.0",
     "@sector-labs/chartist-trends": "^1.0.0"
   },
   "scripts": {
