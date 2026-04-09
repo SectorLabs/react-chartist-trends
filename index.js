@@ -24,7 +24,7 @@ class ChartistGraph extends Component {
   }
 
   updateChart(config) {
-    let Chartist = require('chartist-trends');
+    let Chartist = require('@sector-labs/chartist-trends');
 
     let { type, data } = config;
     let options = config.options || {};

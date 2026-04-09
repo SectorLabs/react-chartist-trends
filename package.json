@@ -1,11 +1,11 @@
 {
-  "name": "react-chartist-trends",
-  "version": "0.1.8",
-  "description": "React component for Chartist.js",
+  "name": "@sector-labs/react-chartist-trends",
+  "version": "1.0.0-rc.1",
+  "description": "React component for @sector-labs/chartist-trends",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/SectorLabs/react-chartist-trends.git"
+    "url": "https://github.com/SectorLabs/react-chartist-trends.git"
   },
   "keywords": [
     "react",
@@ -16,9 +16,9 @@
     "trends"
   ],
   "author": {
-    "name": "Fraser Xu",
-    "email": "xvfeng123@gmail.com",
-    "url": "https://fraserxu.me"
+    "name": "Sector Labs",
+    "email": "open-source@sectorlabs.ro",
+    "url": "https://www.sectorlabs.ro"
   },
   "babel": {
     "presets": [
@@ -34,7 +34,7 @@
   "homepage": "https://github.com/SectorLabs/react-chartist-trends",
   "peerDependencies": {
     "react": "^15.3.0",
-    "chartist-trends": "SectorLabs/chartist-trends#0.1.4"
+    "@sector-labs/chartist-trends": "^1.0.0"
   },
   "scripts": {
     "build": "mkdir -p dist && babel index.js -o dist/index.js"
