@@ -6,6 +6,7 @@ Fork of [fraserxu/react-chartist](https://github.com/fraserxu/react-chartist). R
 
 * Switched from `chartist` to `@sector-labs/chartist-trends`
 * Prefixed unsafe lifecycle methods with `UNSAFE_`
+* Replaced the string ref with a callback ref, since string refs were removed in React 19
 
 ## Install
 
